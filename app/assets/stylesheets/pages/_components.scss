@@ -1,0 +1,22 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: $green;
+  width: 8rem;
+  border-radius: 4px;
+  text-decoration: none;
+
+  
+}
+
+.button:hover {
+  text-decoration: none;
+
+}
