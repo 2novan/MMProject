@@ -1,15 +1,22 @@
 // Specific CSS for your home-page
 .container {
+  display: flex;
+  flex-direction: column;
+  
   text-align: center;
 
   img {
-    padding-top: 6rem;
+    padding-top: 4rem;
     width: 90vh;
   }
 }
 
 
 h2 {
-  padding-top: 6rem;
+  padding-top: 4rem;
   margin-top: 50px;
+}
+
+.button {
+  
 }

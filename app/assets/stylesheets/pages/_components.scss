@@ -1,22 +1,26 @@
 
 .container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .button {
-  margin-top: 1rem;
-  text-align: center;
+  height: auto;
+  width: auto;
   background-color: $green;
-  width: 8rem;
   border-radius: 4px;
-  text-decoration: none;
-
-  
+  color: white;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .button:hover {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 
 }
