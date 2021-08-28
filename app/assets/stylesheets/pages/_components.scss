@@ -1,0 +1,26 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: auto;
+  width: auto;
+  background-color: $green;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
